@@ -6,7 +6,7 @@ const Index = _ => (
         <div class="container my-container">
             <div class="row">
                 
-                <div class="col-md-4 col-sm-6 align-self-center second-container">
+                <div class=" col-sm-6 align-self-center second-container">
                     <img src="../static/Me.jpg" class="self-picture" />
                 </div>
 

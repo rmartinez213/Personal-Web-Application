@@ -51,7 +51,6 @@ const CSS = _ => (
                 padding-bottom: 2%;
                 margin-top: 10%;
                 margin-bottom: 10%;
-
                 background-color: white;
                 transition-duration: 1s;
                 flex: 10;
@@ -91,6 +90,39 @@ const CSS = _ => (
             .third-container{
                 padding-bottom: 4%;
             }
+
+            @media only screen and (min-width: 576px) and (max-width: 2000px){
+                .self-picture{
+                    width: 350px;
+                    height: 500px;
+                    display: block;
+                    margin: auto;
+                    border: 5px solid white;
+                    margin-top: 20%;
+                    margin-bottom: 11%;
+                }
+
+                .Homebody{
+                    padding-bottom: 5%;
+                    margin-top: 20%;
+                    margin-bottom: 15%;
+                    background-color: white;
+                    transition-duration: 1s;
+                    flex: 10;
+                }
+            }
+
+            @media only screen and (min-width: 576px) and (max-width: 992px){
+                .Homebody{
+                    padding-bottom: 2%;
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    background-color: white;
+                    transition-duration: 1s;
+                    
+                }
+            }
+
             `}
         </style>
 
